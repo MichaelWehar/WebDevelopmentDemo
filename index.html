@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <title>Web Development</title>
+    <style>
+      body {
+        background-color: #fcfcfc;
+      }
+      #primary-container {
+        margin-top: 1px;
+        border: 2px solid #8888aa;
+        border-radius: 6px;
+        padding: 20px;
+        background-color: #eeeeee;
+      }
+      .secondary-container {
+        margin-top: 1px;
+        padding: 20px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        background-color: #fefefe;
+      }
+      #footer {
+        margin-top: 1px;
+        padding: 20px;
+        border: 1px solid #cccccc;
+        border-top: 1px solid #cccccc;
+        border-radius: 5px;
+        background-color: #e1e1e1;
+      }
+      #navbar {
+        margin-top: 1px;
+        border: 2px solid #777799;
+        border-top: 1px solid #777799;
+        border-radius: 4px;
+        padding: 10px;
+        background-color: #ccddee;
+      }
+      .navitem {
+        font-size: 20px;
+        color: red;
+        padding: 5px;
+      }
+      .navitem:hover {
+        background-color: #aaaaaa;
+      }
+      #main-heading {
+        font-size: 30px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: #55aa33;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main Heading -->
+    <div id="primary-container">
+      <h1 id="main-heading">Web Development</h1>
+    </div>
+
+    <!-- Navigation -->
+    <div id="navbar">
+      <a class="navitem" href="https://www.w3schools.com">W3Schools</a>
+      <a class="navitem" href="https://pages.github.com">GitHub Pages</a>
+      <a class="navitem" href="https://www.pythonanywhere.com">PythonAnywhere</a>
+    </div>
+
+    <!-- About Project -->
+    <div class="secondary-container">
+      <h2>About This Page</h2>
+      <p>This is a simple webpage that provides information and resources about web development.</p>
+    </div>
+
+    <!-- More Resources -->
+    <div class="secondary-container">
+      <h2>Important technologies for clientside web development:</h2>
+      <ul>
+        <li>HTML - Used to specify the content of a webpage</li>
+        <li>CSS - Used to specify the styling of a webpage</li>
+        <li>JavaScript - Used to specify the functionality of a webpage</li>
+      </ul>
+    </div>
+
+    <!-- Additonal Container -->
+    <div class="secondary-container">
+      <h2>Web Development Technologies</h2>
+      <button type="button" class="btn btn-primary" onclick="alert('HTML stands for Hypertext Markup Language!  HTML can be used to specify the content of a webpage.')">HTML</button>
+      <button type="button" class="btn btn-secondary" onclick="alert('CSS stands for Cascading Style Sheets!  CSS can be used to style the content of a webpage.')">CSS</button>
+      <button type="button" class="btn btn-success" onclick="alert('JavaScript can be used to make webpages interactive!')">JavaScript</button>
+      <button type="button" class="btn btn-danger" onclick="alert('Python is a general purpose programming language that can be used for backend web development.')">Python</button>
+      <button type="button" class="btn btn-warning" onclick="alert('Flask is a Python-based web framework that can be used for backend web development.')">Flask</button>
+      <button type="button" class="btn btn-info" onclick="alert('SQL stands for Structured Query Language!  SQL can be used for expressing database queries.')">SQL</button>
+      <br><br>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <p>This website was created by Michael Wehar and was released under MIT License.</p>
+    </div>
+  </body>
+</html>
